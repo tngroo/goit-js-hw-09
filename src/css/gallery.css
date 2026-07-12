@@ -1,0 +1,95 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery {
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    background-color: #FFFFFF;
+    padding: 24px 0;
+}
+
+.gallery-image {
+    max-width: 360px;
+}
+
+
+.sl-wrapper {
+    background-color: rgba(46, 47, 66, 0.8);
+}
+
+
+
+                                    /* form */ 
+
+
+form {
+    font-family: Montserrat, sans-serif;
+    width: 408px;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: left;
+}
+
+label {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+}
+
+input,
+textarea {
+    width: 360px;
+    padding: 10px 14px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input:focus, input:focus,
+textarea:focus, textarea:focus {
+    border-color: #000000;
+}
+
+input:active, teaxtarea:active {
+    border: 1px solid #000000;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Кнопка */
+button {
+    width: 95px;
+    padding: 8px 16px;
+    background-color: #4e75ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #6c8cff;
+}
